@@ -1,7 +1,21 @@
-img {
+h1{
+    text-align: center;
+}
+
+#affiche {
     width: 180px;
     height: 250px;
+    padding-top: 0.5em;
     object-fit: cover;
     display: block;
     margin: 0 auto;
+}
+
+body{
+    background-color: #94c6e7;
+}
+
+#like{
+    height: 18px;
+    object-fit: cover;
 }

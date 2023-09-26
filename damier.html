@@ -8,109 +8,156 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <!-- Style -->
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="container text-center">
-        <h1>Liste des séries TV</h1>
-    </div>
+    <h1>Liste des séries TV</h1>
+    <br>
+    <br>
     <!-- Séries -->
     <div class="row mx-auto container">
         <!-- Boardwalk Empire -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/boardwalk_empire.jpg" alt="Empire">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/boardwalk_empire.jpg" alt="Empire" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2001 : Boardwalk Empire</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Entourage -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/entourage.jpg" alt="Entourage">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/entourage.jpg" alt="Entourage" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2004 : Entourage</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Dexter -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/dexter.jpg" alt="Dexter">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/dexter.jpg" alt="Dexter" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2006 : Dexter</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Dopesick -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/dopesick.webp" alt="Dopesick">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/dopesick.webp" alt="Dopesick" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2021 : Dopesick</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Engrenages -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/engrenages.webp" alt="Engrenages">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/engrenages.webp" alt="Engrenages" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2005 : Engrenages</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Frère d'armes -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/freres_d_armes.jpg" alt="Frère_d'armes">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/freres_d_armes.jpg" alt="Frère_d'armes" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2001 : Frère d'armes</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Game of thrones -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/game_of_thrones.webp" alt="Game_of_thrones">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/game_of_thrones.webp" alt="Game_of_thrones" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2011 : Game of thrones</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Homeland -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/homeland.webp" alt="Homeland">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/homeland.webp" alt="Homeland" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2011 : Homeland</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Mon oncle Charlie -->
         <div class="col-lg-4 mb-4">
-            <div class="card h-100 mx-auto" style="width: 18rem;">
-                <img src="./img/mon_oncle_charlie.webp" alt="Mon_oncle_Charlie">
+            <div class="card h-100 mx-auto rounded-4" style="width: 18rem;">
+                <img src="./img/mon_oncle_charlie.webp" alt="Mon_oncle_Charlie" id="affiche">
                 <div class="card-body">
                     <h5 class="card-title">2003 : Mon oncle Charlie</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consecteur adipiscing elit. Paratur sed vel assumenda aliquid fuga? Repellat.</p>
-                    <a href="#" class="btn btn-primary">Lire plus ...</a>
+                    <div class="d-flex justify-content-center align-items-end">    
+                        <button id="likeButton" class="btn d-flex">
+                            <img src="./img/miniature_unlike.png" id="like">
+                            <span id="txtLike">J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
